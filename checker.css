@@ -1,0 +1,200 @@
+body{
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+    background-color: rgba(207, 204, 204, 0.849);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(4,1fr);
+    border: 2px solid;
+    border-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+.grid-item{
+    background-color: black;
+}
+.item-1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.item-2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.item-4{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-5{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.item-6{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-7{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.item-8{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-9{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-10{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(250, 248, 248, 0.966);
+}
+.item-11{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-12{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(250, 248, 248, 0.966);
+}
+.item-13{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-14{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(250, 248, 248, 0.966);
+}
+.item-15{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-16{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(250, 248, 248, 0.966);
+}
+.item-17{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.item-18{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-19{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.item-20{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-21{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.item-22{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-23{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.item-24{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-25{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-26{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(250, 248, 248, 0.966);
+}
+.item-27{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-28{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(250, 248, 248, 0.966);
+}
+.item-29{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-30{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(250, 248, 248, 0.966);
+}
+.item-31{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(12, 12, 12, 0.884);
+}
+.item-32{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+img{
+    height: 80px;
+    align-items: center;
+}
+img:hover{
+    animation-name: animate-background;
+    animation-duration: 8s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+@keyframes animate-backgrund{
+    0%{
+        top: 0;
+        right: 0;
+    }
+    100%{
+        top: 0;
+        right: 70%s;
+    }
+}
+
+
+
